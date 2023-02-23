@@ -3,7 +3,7 @@
 /**
  * main - Prints the sum of Even Fibonacci numbers
  * less than 4000000.
- * Return: Success
+ * Return:Nothing!
  */
 
 int main(void)
@@ -13,9 +13,9 @@ int main(void)
 
 	while (k + j < 4000000)
 	{
-	k = + j;
+	k =+ j;
 	if (k % 2 == 0)
-	sum + = k;
+	sum += k;
 	j = k - j;
 	++i;
 	}
