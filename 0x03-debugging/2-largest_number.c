@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * largest_number - return the largest of 3 numbers
@@ -7,6 +7,7 @@ include "main.h"
  * @c: third integer
  * Return: largest number
  */
+
 int largest_number(int a, int b, int c)
 {
 	int largest;
